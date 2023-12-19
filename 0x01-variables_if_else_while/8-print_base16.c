@@ -8,7 +8,7 @@
 int main(void)
 {
 int i;
-char alpha[] = {'a', 'b', 'd', 'e', 'f', '\0'};
+char alpha[] = {'a', 'b', 'c', 'd', 'e', 'f', '\0'};
 for (i = 0 ; i < 10 ; i++)
 {
 putchar('0' + i);
