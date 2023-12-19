@@ -1,11 +1,13 @@
+#include <unistd.h>
 #include <stdio.h>
 /**
- * main - print _putchar
- *
- * Return: Always 0 (Success)
+* main - print putchar
+*
+* Return: Always 0 (Success)
 */
 int main(void)
 {
-printf("_putchar\n");
+char str[] = "_putchar\n";
+write(STDOUT_FILENO, str, sizeof(str) - 1);
 return (0);
 }
